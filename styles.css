@@ -1,0 +1,58 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap');
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+    margin: auto;
+    padding: 20px;
+    border: 20px solid #e2e2e2;
+    border-radius: 20px;
+    background-color: #e2e2e2;
+}
+
+.header { 
+    display: flex;
+    width: 240px;
+    margin: auto;
+}
+.turn {
+    margin: auto;
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+.game {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+.block {
+    background-color: #eeeeee;
+    padding: 100px;
+    grid-gap: 10px;
+    border: 1px solid black;
+    position: relative;
+}
+
+.title {
+    margin: auto;
+    padding: 10px;
+    font-size: 40px;
+}
+
+
+.icon {
+    font-size: 200px;
+    position: absolute;
+    font-family: 'Lato', sans-serif;
+    left: 50px;
+    top: -10px;
+}
+
